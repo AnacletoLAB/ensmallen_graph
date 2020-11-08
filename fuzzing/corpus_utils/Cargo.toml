@@ -1,16 +1,23 @@
 [package]
-name = "graph_harness"
+name = "corpus_utils"
 version = "0.1.0"
-authors = ["Tomaso Fontana <tommaso.fontana.96@gmail.com>"]
+authors = ["zom <tommaso.fontana.96@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lib]
-name = "graph_harness"
-path = "src/lib.rs"
+[[bin]]
+name = "load"
+path = "src/load.rs"
+
+[[bin]]
+name = "create_corpus"
+path = "src/create_corpus.rs"
 
 [dependencies]
-rand = "0.7.3"
 arbitrary_rust = { git = "https://github.com/zommiommy/arbitrary_rust", branch = "main" }
 graph = {path = "../../graph"}
+graph_harness = {path = "../graph_harness"}
+
+[dev-dependencies]
+arbitrary = "*"

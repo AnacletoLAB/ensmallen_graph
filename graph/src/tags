@@ -1,0 +1,487 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+CSVFileReader	csv_file_reader.rs	/^impl CSVFileReader {$/;"	c
+CSVFileReader	csv_file_reader.rs	/^pub struct CSVFileReader {$/;"	s
+CSVFileWriter	csv_file_writer.rs	/^impl CSVFileWriter {$/;"	c
+CSVFileWriter	csv_file_writer.rs	/^pub struct CSVFileWriter {$/;"	s
+ConcurrentHashmap	parallel_hashmap.rs	/^impl ConcurrentHashmap {$/;"	c
+ConcurrentHashmap	parallel_hashmap.rs	/^struct ConcurrentHashmap {$/;"	s
+Contexts	types.rs	/^pub type Contexts = Vec<Vec<NodeT>>;$/;"	t
+DEFAULT_PATH	test_utilities.rs	/^static DEFAULT_PATH: &str = "";$/;"	v
+DEFAULT_PATH	test_utilities.rs	/^static DEFAULT_PATH: &str = "\/tmp\/";$/;"	v
+EdgeFileReader	edge_file_reader.rs	/^impl EdgeFileReader {$/;"	c
+EdgeFileReader	edge_file_reader.rs	/^pub struct EdgeFileReader {$/;"	s
+EdgeFileWriter	edge_file_writer.rs	/^impl EdgeFileWriter {$/;"	c
+EdgeFileWriter	edge_file_writer.rs	/^pub struct EdgeFileWriter {$/;"	s
+EdgeT	types.rs	/^pub type EdgeT = u64;$/;"	t
+EdgeTypeT	types.rs	/^pub type EdgeTypeT = u16;$/;"	t
+Frequencies	types.rs	/^pub type Frequencies = Vec<f64>;$/;"	t
+Graph	bitmaps.rs	/^impl Graph {$/;"	c
+Graph	compression.rs	/^impl Graph {$/;"	c
+Graph	constructors.rs	/^impl Graph {$/;"	c
+Graph	edge_lists.rs	/^impl Graph {$/;"	c
+Graph	filters.rs	/^impl Graph {$/;"	c
+Graph	from_csv.rs	/^impl Graph {$/;"	c
+Graph	getters.rs	/^impl Graph {$/;"	c
+Graph	graph.rs	/^impl Graph {$/;"	c
+Graph	graph.rs	/^pub struct Graph {$/;"	s
+Graph	holdouts.rs	/^impl Graph {$/;"	c
+Graph	iters.rs	/^impl Graph {$/;"	c
+Graph	metrics.rs	/^impl Graph {$/;"	c
+Graph	modifiers.rs	/^impl Graph {$/;"	c
+Graph	operators.rs	/^impl Graph {$/;"	c
+Graph	operators.rs	/^impl<'a, 'b> Graph {$/;"	c
+Graph	operators.rs	/^impl<'a, 'b> ops::BitAnd<&'b Graph> for &'a Graph {$/;"	c
+Graph	operators.rs	/^impl<'a, 'b> ops::BitOr<&'b Graph> for &'a Graph {$/;"	c
+Graph	operators.rs	/^impl<'a, 'b> ops::BitXor<&'b Graph> for &'a Graph {$/;"	c
+Graph	operators.rs	/^impl<'a, 'b> ops::Sub<&'b Graph> for &'a Graph {$/;"	c
+Graph	preprocessing.rs	/^impl Graph {$/;"	c
+Graph	remap.rs	/^impl Graph {$/;"	c
+Graph	remove.rs	/^impl Graph {$/;"	c
+Graph	setters.rs	/^impl Graph {$/;"	c
+Graph	tarjan.rs	/^impl Graph {$/;"	c
+Graph	trees.rs	/^impl Graph {$/;"	c
+Graph	utils.rs	/^impl Graph {$/;"	c
+Graph	walks.rs	/^impl Graph {$/;"	c
+NodeFileReader	node_file_reader.rs	/^impl NodeFileReader {$/;"	c
+NodeFileReader	node_file_reader.rs	/^pub struct NodeFileReader {$/;"	s
+NodeFileWriter	node_file_writer.rs	/^impl NodeFileWriter {$/;"	c
+NodeFileWriter	node_file_writer.rs	/^pub struct NodeFileWriter {$/;"	s
+NodeT	types.rs	/^pub type NodeT = u32;$/;"	t
+NodeTypeT	types.rs	/^pub type NodeTypeT = u16;$/;"	t
+Output	operators.rs	/^    type Output = Result<Graph, String>;$/;"	t	implementation:Graph
+ParamsT	types.rs	/^pub type ParamsT = WeightT;$/;"	t
+ParsedStringEdgesType	constructors.rs	/^type ParsedStringEdgesType = Result<$/;"	t
+Quadruple	types.rs	/^pub type Quadruple = (NodeT, NodeT, Option<EdgeTypeT>, Option<WeightT>);$/;"	t
+SingleWalkParameters	walks_parameters.rs	/^impl SingleWalkParameters {$/;"	c
+SingleWalkParameters	walks_parameters.rs	/^pub struct SingleWalkParameters {$/;"	s
+StringQuadruple	types.rs	/^pub type StringQuadruple = (String, String, Option<String>, Option<WeightT>);$/;"	t
+ToFromUsize	types.rs	/^pub trait ToFromUsize: Clone + Display + Ord + Copy + AddAssign {$/;"	i
+Triple	types.rs	/^pub type Triple = (NodeT, NodeT, Option<EdgeTypeT>);$/;"	t
+Vocabulary	vocabulary.rs	/^impl<IndexT: ToFromUsize> Vocabulary<IndexT> {$/;"	c
+Vocabulary	vocabulary.rs	/^pub struct Vocabulary<IndexT: ToFromUsize> {$/;"	s
+VocabularyVec	vocabulary_vec.rs	/^impl<IndexT: ToFromUsize, CountT: ToFromUsize> VocabularyVec<IndexT, CountT> {$/;"	c
+VocabularyVec	vocabulary_vec.rs	/^pub struct VocabularyVec<IndexT: ToFromUsize, CountT: ToFromUsize> {$/;"	s
+WalkWeights	walks_parameters.rs	/^impl Default for WalkWeights {$/;"	c
+WalkWeights	walks_parameters.rs	/^impl WalkWeights {$/;"	c
+WalkWeights	walks_parameters.rs	/^pub struct WalkWeights {$/;"	s
+WalksParameters	walks_parameters.rs	/^impl WalksParameters {$/;"	c
+WalksParameters	walks_parameters.rs	/^pub struct WalksParameters {$/;"	s
+WeightT	types.rs	/^pub type WeightT = f32;$/;"	t
+Words	types.rs	/^pub type Words = Vec<NodeT>;$/;"	t
+adamic_adar_index	metrics.rs	/^    pub fn adamic_adar_index(&self, one: NodeT, two: NodeT) -> Result<f64, String> {$/;"	P	implementation:Graph
+add	parallel_hashmap.rs	/^    pub fn add(&mut self, key: (NodeT, NodeT), value: f64){$/;"	P	implementation:ConcurrentHashmap
+are_nodes_remappable	remap.rs	/^    pub fn are_nodes_remappable(&self, other: &Graph) -> bool {$/;"	P	implementation:Graph
+bitand	operators.rs	/^    fn bitand(self, other: &'b Graph) -> Result<Graph, String> {$/;"	P	implementation:Graph
+bitmaps	lib.rs	/^mod bitmaps;$/;"	n
+bitor	operators.rs	/^    fn bitor(self, other: &'b Graph) -> Result<Graph, String> {$/;"	P	implementation:Graph
+bitxor	operators.rs	/^    fn bitxor(self, other: &'b Graph) -> Result<Graph, String> {$/;"	P	implementation:Graph
+build_counts	vocabulary_vec.rs	/^    pub fn build_counts(&mut self) {$/;"	P	implementation:VocabularyVec
+build_edges	constructors.rs	/^pub(crate) fn build_edges($/;"	f
+build_graph	constructors.rs	/^    pub(crate) fn build_graph($/;"	P	implementation:Graph
+build_operator_graph_name	operators.rs	/^fn build_operator_graph_name(main: &Graph, other: &Graph, operator: String) -> String {$/;"	f
+build_reverse_mapping	vocabulary.rs	/^    pub fn build_reverse_mapping(&mut self) -> Result<(), String> {$/;"	P	implementation:Vocabulary
+build_reverse_mapping	vocabulary_vec.rs	/^    pub fn build_reverse_mapping(&mut self) -> Result<(), String> {$/;"	P	implementation:VocabularyVec
+c_update_explore_weight_transition	core.c	/^extern void c_update_explore_weight_transition($/;"	f	typeref:typename:void
+c_update_explore_weight_transition	walks.rs	/^    fn c_update_explore_weight_transition($/;"	f
+c_update_return_explore_weight_transition	core.c	/^extern void c_update_return_explore_weight_transition($/;"	f	typeref:typename:void
+c_update_return_explore_weight_transition	walks.rs	/^    fn c_update_return_explore_weight_transition($/;"	f
+complete_walks_iter	walks.rs	/^    pub fn complete_walks_iter<'a>($/;"	P	implementation:Graph
+compose_lines	csv_file_writer.rs	/^pub(crate) fn compose_lines(number_of_columns: usize, pairs: Vec<(String, usize)>) -> Vec<String/;"	f
+compression	lib.rs	/^mod compression;$/;"	n
+compute_edge_ids_vector	utils.rs	/^    pub(crate) fn compute_edge_ids_vector($/;"	P	implementation:Graph
+connected_components_number	metrics.rs	/^    pub fn connected_components_number(&self, verbose: bool) -> (NodeT, NodeT, NodeT) {$/;"	P	implementation:Graph
+connected_holdout	holdouts.rs	/^    pub fn connected_holdout($/;"	P	implementation:Graph
+constructors	lib.rs	/^mod constructors;$/;"	n
+contains	graph.rs	/^    pub fn contains(&self, other: &Graph) -> Result<bool, String> {$/;"	P	implementation:Graph
+contains_key	vocabulary.rs	/^    pub fn contains_key(&self, key: &str) -> bool {$/;"	P	implementation:Vocabulary
+cooccurence_matrix	preprocessing.rs	/^    pub fn cooccurence_matrix($/;"	P	implementation:Graph
+cooccurence_matrix	preprocessing.rs	/^pub fn cooccurence_matrix($/;"	f
+count_rows	csv_file_reader.rs	/^    pub(crate) fn count_rows(&self) -> usize {$/;"	P	implementation:CSVFileReader
+counts	vocabulary_vec.rs	/^    pub counts: Vec<CountT>,$/;"	m	struct:VocabularyVec
+csv_file_reader	lib.rs	/^mod csv_file_reader;$/;"	n
+csv_file_writer	lib.rs	/^mod csv_file_writer;$/;"	n
+decode	parallel_hashmap.rs	/^fn decode(value: u64) -> f64 {$/;"	f
+decode_edge	compression.rs	/^    pub(crate) fn decode_edge(&self, edge: u64) -> (NodeT, NodeT) {$/;"	P	implementation:Graph
+decode_edge	compression.rs	/^pub(crate) fn decode_edge(edge: u64, node_bits: u8, node_bit_mask: u64) -> (NodeT, NodeT) {$/;"	f
+default	walks_parameters.rs	/^    fn default() -> WalkWeights {$/;"	P	implementation:WalkWeights
+default_holdout_test_suite	test_utilities.rs	/^pub fn default_holdout_test_suite($/;"	f
+default_test_suite	test_utilities.rs	/^pub fn default_test_suite(graph: &mut Graph, verbose: bool) -> Result<(), String> {$/;"	f
+degrees_max	metrics.rs	/^    pub fn degrees_max(&self) -> NodeT {$/;"	P	implementation:Graph
+degrees_mean	metrics.rs	/^    pub fn degrees_mean(&self) -> f64 {$/;"	P	implementation:Graph
+degrees_median	metrics.rs	/^    pub fn degrees_median(&self) -> NodeT {$/;"	P	implementation:Graph
+degrees_min	metrics.rs	/^    pub fn degrees_min(&self) -> NodeT {$/;"	P	implementation:Graph
+degrees_mode	metrics.rs	/^    pub fn degrees_mode(&self) -> NodeT {$/;"	P	implementation:Graph
+degrees_product	metrics.rs	/^    pub fn degrees_product(&self, one: NodeT, two: NodeT) -> Result<usize, String> {$/;"	P	implementation:Graph
+density	metrics.rs	/^    pub fn density(&self) -> f64 {$/;"	P	implementation:Graph
+disable_fast_walk	modifiers.rs	/^    pub fn disable_fast_walk(&mut self) {$/;"	P	implementation:Graph
+dump	edge_file_writer.rs	/^    pub fn dump(&self, graph: &Graph) -> Result<(), String> {$/;"	P	implementation:EdgeFileWriter
+dump	node_file_writer.rs	/^    pub fn dump($/;"	P	implementation:NodeFileWriter
+edge_file_reader	lib.rs	/^mod edge_file_reader;$/;"	n
+edge_file_writer	lib.rs	/^mod edge_file_writer;$/;"	n
+edge_lists	lib.rs	/^mod edge_lists;$/;"	n
+enable_fast_walk	modifiers.rs	/^    pub fn enable_fast_walk($/;"	P	implementation:Graph
+encode	parallel_hashmap.rs	/^fn encode(value: f64) -> u64 {$/;"	f
+encode_edge	compression.rs	/^    pub(crate) fn encode_edge(&self, src: NodeT, dst: NodeT) -> u64 {$/;"	P	implementation:Graph
+encode_edge	compression.rs	/^pub(crate) fn encode_edge(src: NodeT, dst: NodeT, node_bits: u8) -> EdgeT {$/;"	f
+encode_max_edge	compression.rs	/^pub(crate) fn encode_max_edge(node: NodeT, node_bits: u8) -> EdgeT {$/;"	f
+extract_edge	walks.rs	/^    pub fn extract_edge($/;"	P	implementation:Graph
+extract_node	walks.rs	/^    pub fn extract_node($/;"	P	implementation:Graph
+extract_uniform_node	walks.rs	/^    pub fn extract_uniform_node(&self, node: NodeT, random_state: NodeT) -> NodeT {$/;"	P	implementation:Graph
+f32	core.c	/^typedef float                 f32;$/;"	t	typeref:typename:float	file:
+f64	core.c	/^typedef double                f64;$/;"	t	typeref:typename:double	file:
+filter	filters.rs	/^    pub fn filter($/;"	P	implementation:Graph
+filters	lib.rs	/^mod filters;$/;"	n
+first_order_walker	test_utilities.rs	/^pub fn first_order_walker(graph: &Graph) -> Result<WalksParameters, String> {$/;"	f
+format_edge_type_list	metrics.rs	/^    fn format_edge_type_list($/;"	P	implementation:Graph
+format_list	metrics.rs	/^    fn format_list(&self, list: &[String]) -> Result<String, String> {$/;"	P	implementation:Graph
+format_node_list	metrics.rs	/^    fn format_node_list(&self, node_list: &[NodeT]) -> Result<String, String> {$/;"	P	implementation:Graph
+format_node_type_list	metrics.rs	/^    fn format_node_type_list($/;"	P	implementation:Graph
+from_csv	lib.rs	/^mod from_csv;$/;"	n
+from_integer_unsorted	constructors.rs	/^    pub fn from_integer_unsorted($/;"	P	implementation:Graph
+from_sorted_csv	from_csv.rs	/^    pub fn from_sorted_csv($/;"	P	implementation:Graph
+from_string_sorted	constructors.rs	/^    pub fn from_string_sorted($/;"	P	implementation:Graph
+from_string_unsorted	constructors.rs	/^    pub fn from_string_unsorted($/;"	P	implementation:Graph
+from_structs	vocabulary_vec.rs	/^    pub fn from_structs($/;"	P	implementation:VocabularyVec
+from_unsorted_csv	from_csv.rs	/^    pub fn from_unsorted_csv($/;"	P	implementation:Graph
+from_usize	types.rs	/^    fn from_usize(v: usize) -> Self;$/;"	P	interface:ToFromUsize
+generic_integer_operator	operators.rs	/^fn generic_integer_operator($/;"	f
+generic_operator	operators.rs	/^    pub(crate) fn generic_operator($/;"	P	implementation:Graph
+generic_string_operator	operators.rs	/^fn generic_string_operator($/;"	f
+get	vocabulary.rs	/^    pub fn get(&self, key: &str) -> Option<&IndexT> {$/;"	P	implementation:Vocabulary
+get	vocabulary_vec.rs	/^    pub fn get(&self, key: &str) -> Option<&IndexT> {$/;"	P	implementation:VocabularyVec
+get_bipartite_edge_names	edge_lists.rs	/^    pub fn get_bipartite_edge_names($/;"	P	implementation:Graph
+get_bipartite_edges	edge_lists.rs	/^    pub fn get_bipartite_edges($/;"	P	implementation:Graph
+get_clique_edge_names	edge_lists.rs	/^    pub fn get_clique_edge_names($/;"	P	implementation:Graph
+get_clique_edges	edge_lists.rs	/^    pub fn get_clique_edges($/;"	P	implementation:Graph
+get_column_number	csv_file_reader.rs	/^    pub(crate) fn get_column_number(&self, column_name: String) -> Result<usize, String> {$/;"	P	implementation:CSVFileReader
+get_dense_node_mapping	getters.rs	/^    pub fn get_dense_node_mapping(&self) -> HashMap<NodeT, NodeT> {$/;"	P	implementation:Graph
+get_destination	getters.rs	/^    pub fn get_destination(&self, edge_id: EdgeT) -> NodeT {$/;"	P	implementation:Graph
+get_destination_names	getters.rs	/^    pub fn get_destination_names(&self, directed: bool) -> Vec<String> {$/;"	P	implementation:Graph
+get_destinations	getters.rs	/^    pub fn get_destinations(&self, directed: bool) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_destinations_iter	iters.rs	/^    pub fn get_destinations_iter(&self, directed: bool) -> impl Iterator<Item = NodeT> + '_ {$/;"	P	implementation:Graph
+get_destinations_min_max_edge_ids	graph.rs	/^    pub(crate) fn get_destinations_min_max_edge_ids(&self, src: NodeT) -> (EdgeT, EdgeT) {$/;"	P	implementation:Graph
+get_destinations_range	getters.rs	/^    pub fn get_destinations_range($/;"	P	implementation:Graph
+get_destinations_slice	walks.rs	/^    fn get_destinations_slice<'a>($/;"	P	implementation:Graph
+get_edge_from_edge_id	compression.rs	/^    pub(crate) fn get_edge_from_edge_id(&self, edge_id: EdgeT) -> (NodeT, NodeT) {$/;"	P	implementation:Graph
+get_edge_id	graph.rs	/^    pub fn get_edge_id($/;"	P	implementation:Graph
+get_edge_id_from_tuple	compression.rs	/^    pub(crate) fn get_edge_id_from_tuple(&self, src: NodeT, dst: NodeT) -> Option<EdgeT> {$/;"	P	implementation:Graph
+get_edge_id_string	graph.rs	/^    pub fn get_edge_id_string($/;"	P	implementation:Graph
+get_edge_ids	graph.rs	/^    pub fn get_edge_ids(&self, src: NodeT, dst: NodeT) -> Option<impl Iterator<Item = EdgeT>> {$/;"	P	implementation:Graph
+get_edge_names	getters.rs	/^    pub fn get_edge_names(&self, directed: bool) -> Vec<(String, String)> {$/;"	P	implementation:Graph
+get_edge_quadruple	iters.rs	/^    pub fn get_edge_quadruple($/;"	P	implementation:Graph
+get_edge_transition	walks.rs	/^    fn get_edge_transition($/;"	P	implementation:Graph
+get_edge_triple	iters.rs	/^    pub fn get_edge_triple(&self, edge_id: EdgeT) -> (NodeT, NodeT, Option<EdgeTypeT>) {$/;"	P	implementation:Graph
+get_edge_type	getters.rs	/^    pub fn get_edge_type(&self, edge_id: EdgeT) -> Result<EdgeTypeT, String> {$/;"	P	implementation:Graph
+get_edge_type_counts	graph.rs	/^    pub fn get_edge_type_counts(&self) -> Result<Counter<EdgeTypeT, usize>, String> {$/;"	P	implementation:Graph
+get_edge_type_counts_hashmap	graph.rs	/^    pub fn get_edge_type_counts_hashmap(&self) -> Result<HashMap<EdgeTypeT, usize>, String> {$/;"	P	implementation:Graph
+get_edge_type_name	getters.rs	/^    pub fn get_edge_type_name(&self, edge_type_id: EdgeTypeT) -> Option<String> {$/;"	P	implementation:Graph
+get_edge_type_names	getters.rs	/^    pub fn get_edge_type_names(&self) -> Option<Vec<String>> {$/;"	P	implementation:Graph
+get_edge_type_number	getters.rs	/^    pub fn get_edge_type_number(&self, edge_type: EdgeTypeT) -> EdgeT {$/;"	P	implementation:Graph
+get_edge_type_string	getters.rs	/^    pub fn get_edge_type_string(&self, edge_id: EdgeT) -> Option<String> {$/;"	P	implementation:Graph
+get_edge_types	getters.rs	/^    pub fn get_edge_types(&self) -> Option<Vec<EdgeTypeT>> {$/;"	P	implementation:Graph
+get_edge_types_min_max_edge_ids	graph.rs	/^    pub(crate) fn get_edge_types_min_max_edge_ids($/;"	P	implementation:Graph
+get_edge_types_number	getters.rs	/^    pub fn get_edge_types_number(&self) -> EdgeTypeT {$/;"	P	implementation:Graph
+get_edge_weight	getters.rs	/^    pub fn get_edge_weight(&self, edge_id: EdgeT) -> Option<WeightT> {$/;"	P	implementation:Graph
+get_edges	getters.rs	/^    pub fn get_edges(&self, directed: bool) -> Vec<Vec<NodeT>> {$/;"	P	implementation:Graph
+get_edges_iter	iters.rs	/^    pub fn get_edges_iter($/;"	P	implementation:Graph
+get_edges_number	getters.rs	/^    pub fn get_edges_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_edges_par_iter	iters.rs	/^    pub fn get_edges_par_iter($/;"	P	implementation:Graph
+get_edges_par_quadruples	iters.rs	/^    pub fn get_edges_par_quadruples($/;"	P	implementation:Graph
+get_edges_par_string_iter	iters.rs	/^    pub fn get_edges_par_string_iter($/;"	P	implementation:Graph
+get_edges_par_string_quadruples	iters.rs	/^    pub fn get_edges_par_string_quadruples($/;"	P	implementation:Graph
+get_edges_par_string_triples	iters.rs	/^    pub fn get_edges_par_string_triples($/;"	P	implementation:Graph
+get_edges_par_triples	iters.rs	/^    pub fn get_edges_par_triples($/;"	P	implementation:Graph
+get_edges_quadruples	iters.rs	/^    pub fn get_edges_quadruples($/;"	P	implementation:Graph
+get_edges_string_iter	iters.rs	/^    pub fn get_edges_string_iter($/;"	P	implementation:Graph
+get_edges_string_quadruples	iters.rs	/^    pub fn get_edges_string_quadruples($/;"	P	implementation:Graph
+get_edges_string_triples	iters.rs	/^    pub fn get_edges_string_triples($/;"	P	implementation:Graph
+get_edges_triples	iters.rs	/^    pub fn get_edges_triples($/;"	P	implementation:Graph
+get_elements_per_line	csv_file_reader.rs	/^    pub(crate) fn get_elements_per_line(&self) -> Result<usize, String> {$/;"	P	implementation:CSVFileReader
+get_filter_bitmap	bitmaps.rs	/^    pub(crate) fn get_filter_bitmap($/;"	P	implementation:Graph
+get_header	csv_file_reader.rs	/^    pub(crate) fn get_header(&self) -> Result<Vec<String>, String> {$/;"	P	implementation:CSVFileReader
+get_holdouts_edges_number	holdouts.rs	/^    fn get_holdouts_edges_number($/;"	P	implementation:Graph
+get_loading_bar	utils.rs	/^pub(crate) fn get_loading_bar(verbose: bool, desc: &str, total_iterations: usize) -> ProgressBar/;"	f
+get_max_encodable_edge_number	getters.rs	/^    pub fn get_max_encodable_edge_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_multigraph_edges_number	getters.rs	/^    pub fn get_multigraph_edges_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_name	getters.rs	/^    pub fn get_name(&self) -> String {$/;"	P	implementation:Graph
+get_node_bits	compression.rs	/^pub(crate) fn get_node_bits(top_node: NodeT) -> u8 {$/;"	f
+get_node_component	trees.rs	/^fn get_node_component(component: usize, components_remapping: &HashMap<usize, usize>) -> usize {$/;"	f
+get_node_components_vector	getters.rs	/^    pub fn get_node_components_vector(&self, verbose: bool) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_node_degree	graph.rs	/^    pub fn get_node_degree(&self, node: NodeT) -> NodeT {$/;"	P	implementation:Graph
+get_node_degrees	getters.rs	/^    pub fn get_node_degrees(&self) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_node_edges_and_destinations	walks.rs	/^    fn get_node_edges_and_destinations(&self, node: NodeT) -> (EdgeT, EdgeT, Option<Vec<NodeT>>)/;"	P	implementation:Graph
+get_node_id	getters.rs	/^    pub fn get_node_id(&self, node_name: &str) -> Result<NodeT, String> {$/;"	P	implementation:Graph
+get_node_name	getters.rs	/^    pub fn get_node_name(&self, node_id: NodeT) -> Result<String, String> {$/;"	P	implementation:Graph
+get_node_names	getters.rs	/^    pub fn get_node_names(&self) -> Vec<String> {$/;"	P	implementation:Graph
+get_node_transition	walks.rs	/^    fn get_node_transition($/;"	P	implementation:Graph
+get_node_type	getters.rs	/^    pub fn get_node_type(&self, node_id: NodeT) -> Result<NodeTypeT, String> {$/;"	P	implementation:Graph
+get_node_type_counts	graph.rs	/^    pub fn get_node_type_counts(&self) -> Result<Counter<NodeTypeT, usize>, String> {$/;"	P	implementation:Graph
+get_node_type_counts_hashmap	graph.rs	/^    pub fn get_node_type_counts_hashmap(&self) -> Result<HashMap<EdgeTypeT, usize>, String> {$/;"	P	implementation:Graph
+get_node_type_name	getters.rs	/^    pub fn get_node_type_name(&self, node_type_id: NodeTypeT) -> Option<String> {$/;"	P	implementation:Graph
+get_node_type_names	getters.rs	/^    pub fn get_node_type_names(&self) -> Option<Vec<String>> {$/;"	P	implementation:Graph
+get_node_type_number	getters.rs	/^    pub fn get_node_type_number(&self, node_type: NodeTypeT) -> NodeT {$/;"	P	implementation:Graph
+get_node_type_string	getters.rs	/^    pub fn get_node_type_string(&self, node_id: NodeT) -> Option<String> {$/;"	P	implementation:Graph
+get_node_types	getters.rs	/^    pub fn get_node_types(&self) -> Option<Vec<NodeTypeT>> {$/;"	P	implementation:Graph
+get_node_types_number	getters.rs	/^    pub fn get_node_types_number(&self) -> NodeTypeT {$/;"	P	implementation:Graph
+get_nodes	getters.rs	/^    pub fn get_nodes(&self) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_nodes_iter	iters.rs	/^    pub fn get_nodes_iter(&self) -> impl Iterator<Item = (NodeT, Option<NodeTypeT>)> + '_ {$/;"	P	implementation:Graph
+get_nodes_mapping	getters.rs	/^    pub fn get_nodes_mapping(&self) -> HashMap<String, NodeT> {$/;"	P	implementation:Graph
+get_nodes_names_iter	iters.rs	/^    pub fn get_nodes_names_iter(&self) -> impl Iterator<Item = (NodeT, String, Option<String>)> /;"	P	implementation:Graph
+get_nodes_number	getters.rs	/^    pub fn get_nodes_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_not_singleton_nodes_number	metrics.rs	/^    pub fn get_not_singleton_nodes_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_not_singletons	getters.rs	/^    pub fn get_not_singletons(&self) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_outbounds	getters.rs	/^    pub fn get_outbounds(&self) -> Vec<EdgeT> {$/;"	P	implementation:Graph
+get_self_loop_number	metrics.rs	/^    pub fn get_self_loop_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_self_loop_rate	metrics.rs	/^    pub fn get_self_loop_rate(&self) -> f64 {$/;"	P	implementation:Graph
+get_singleton_nodes_number	metrics.rs	/^    pub fn get_singleton_nodes_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_source_destinations_range	getters.rs	/^    pub fn get_source_destinations_range(&self, src: NodeT) -> impl Iterator<Item = NodeT> + '_ /;"	P	implementation:Graph
+get_source_names	getters.rs	/^    pub fn get_source_names(&self, directed: bool) -> Vec<String> {$/;"	P	implementation:Graph
+get_source_nodes_number	metrics.rs	/^    pub fn get_source_nodes_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_sources	getters.rs	/^    pub fn get_sources(&self, directed: bool) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_sources_iter	iters.rs	/^    pub fn get_sources_iter(&self, directed: bool) -> impl Iterator<Item = NodeT> + '_ {$/;"	P	implementation:Graph
+get_top_k_central_node_names	getters.rs	/^    pub fn get_top_k_central_node_names(&self, k: NodeT) -> Vec<String> {$/;"	P	implementation:Graph
+get_top_k_central_nodes	getters.rs	/^    pub fn get_top_k_central_nodes(&self, k: NodeT) -> Vec<NodeT> {$/;"	P	implementation:Graph
+get_traps_number	getters.rs	/^    pub fn get_traps_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_unchecked_destinations_range	graph.rs	/^    pub fn get_unchecked_destinations_range(&self, src: NodeT) -> impl Iterator<Item = EdgeT> {$/;"	P	implementation:Graph
+get_unchecked_edge_id	graph.rs	/^    pub fn get_unchecked_edge_id($/;"	P	implementation:Graph
+get_unchecked_edge_id_from_tuple	compression.rs	/^    pub(crate) fn get_unchecked_edge_id_from_tuple(&self, src: NodeT, dst: NodeT) -> EdgeT {$/;"	P	implementation:Graph
+get_unchecked_edge_ids_range	graph.rs	/^    pub fn get_unchecked_edge_ids_range($/;"	P	implementation:Graph
+get_unchecked_edge_type	getters.rs	/^    pub fn get_unchecked_edge_type(&self, edge_id: EdgeT) -> Option<EdgeTypeT> {$/;"	P	implementation:Graph
+get_unchecked_edge_type_id	getters.rs	/^    pub fn get_unchecked_edge_type_id(&self, edge_type: Option<&str>) -> Option<EdgeTypeT> {$/;"	P	implementation:Graph
+get_unchecked_edge_types_min_max_edge_ids	graph.rs	/^    pub(crate) fn get_unchecked_edge_types_min_max_edge_ids($/;"	P	implementation:Graph
+get_unchecked_edge_types_number_from_tuple	graph.rs	/^    pub(crate) fn get_unchecked_edge_types_number_from_tuple($/;"	P	implementation:Graph
+get_unchecked_link_edge_types	graph.rs	/^    pub fn get_unchecked_link_edge_types(&self, src: NodeT, dst: NodeT) -> Option<Vec<EdgeTypeT>/;"	P	implementation:Graph
+get_unchecked_link_weights	graph.rs	/^    pub fn get_unchecked_link_weights(&self, src: NodeT, dst: NodeT) -> Option<Vec<WeightT>> {$/;"	P	implementation:Graph
+get_unchecked_node_id	getters.rs	/^    pub fn get_unchecked_node_id(&self, node_name: &str) -> NodeT {$/;"	P	implementation:Graph
+get_unchecked_node_type	getters.rs	/^    pub fn get_unchecked_node_type(&self, node_id: NodeT) -> Option<NodeTypeT> {$/;"	P	implementation:Graph
+get_undirected_edges_number	metrics.rs	/^    pub fn get_undirected_edges_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_unique_edges_iter	iters.rs	/^    pub fn get_unique_edges_iter(&self) -> impl Iterator<Item = (NodeT, NodeT)> + '_ {$/;"	P	implementation:Graph
+get_unique_edges_number	getters.rs	/^    pub fn get_unique_edges_number(&self) -> EdgeT {$/;"	P	implementation:Graph
+get_unique_self_loop_number	metrics.rs	/^    pub fn get_unique_self_loop_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_unique_source	compression.rs	/^    pub(crate) fn get_unique_source(&self, source_id: NodeT) -> NodeT {$/;"	P	implementation:Graph
+get_unique_sources_number	getters.rs	/^    pub fn get_unique_sources_number(&self) -> NodeT {$/;"	P	implementation:Graph
+get_weighted_transitions	walks.rs	/^    fn get_weighted_transitions(&self, min_edge_id: EdgeT, max_edge_id: EdgeT) -> Vec<WeightT> {$/;"	P	implementation:Graph
+get_weights	getters.rs	/^    pub fn get_weights(&self) -> Option<Vec<WeightT>> {$/;"	P	implementation:Graph
+getters	lib.rs	/^mod getters;$/;"	n
+graph	lib.rs	/^pub mod graph;$/;"	n
+has_edge	graph.rs	/^    pub fn has_edge(&self, src: NodeT, dst: NodeT, edge_type: Option<EdgeTypeT>) -> bool {$/;"	P	implementation:Graph
+has_edge_string	graph.rs	/^    pub fn has_edge_string($/;"	P	implementation:Graph
+has_edge_types	getters.rs	/^    pub fn has_edge_types(&self) -> bool {$/;"	P	implementation:Graph
+has_node_string	graph.rs	/^    pub fn has_node_string(&self, node_name: &str, node_type_name: Option<String>) -> bool {$/;"	P	implementation:Graph
+has_node_types	getters.rs	/^    pub fn has_node_types(&self) -> bool {$/;"	P	implementation:Graph
+has_numeric_ids	vocabulary.rs	/^    pub fn has_numeric_ids(&self)->bool{$/;"	P	implementation:Vocabulary
+has_numeric_ids	vocabulary_vec.rs	/^    pub fn has_numeric_ids(&self)->bool{$/;"	P	implementation:VocabularyVec
+has_selfloops	getters.rs	/^    pub fn has_selfloops(&self) -> bool {$/;"	P	implementation:Graph
+has_singletons	getters.rs	/^    pub fn has_singletons(&self) -> bool {$/;"	P	implementation:Graph
+has_traps	getters.rs	/^    pub fn has_traps(&self) -> bool {$/;"	P	implementation:Graph
+has_weights	getters.rs	/^    pub fn has_weights(&self) -> bool {$/;"	P	implementation:Graph
+holdout	holdouts.rs	/^    fn holdout($/;"	P	implementation:Graph
+holdouts	lib.rs	/^mod holdouts;$/;"	n
+ids	vocabulary_vec.rs	/^    pub ids: Vec<IndexT>,$/;"	m	struct:VocabularyVec
+impl_to_from_usize	types.rs	/^macro_rules! impl_to_from_usize {$/;"	M
+insert	vocabulary.rs	/^    pub fn insert(&mut self, value: String) -> Result<IndexT, String> {$/;"	P	implementation:Vocabulary
+insert	vocabulary_vec.rs	/^    pub fn insert(&mut self, value: String) -> Result<IndexT, String> {$/;"	P	implementation:VocabularyVec
+insert_lock	parallel_hashmap.rs	/^    insert_lock: Mutex<()>,$/;"	m	struct:ConcurrentHashmap
+is_compatible	operators.rs	/^    pub(crate) fn is_compatible(&self, other: &Graph) -> Result<bool, String> {$/;"	P	implementation:Graph
+is_directed	getters.rs	/^    pub fn is_directed(&self) -> bool {$/;"	P	implementation:Graph
+is_edge_trap	graph.rs	/^    pub fn is_edge_trap(&self, edge_id: EdgeT) -> bool {$/;"	P	implementation:Graph
+is_empty	vocabulary.rs	/^    pub fn is_empty(&self) -> bool {$/;"	P	implementation:Vocabulary
+is_empty	vocabulary_vec.rs	/^    pub fn is_empty(&self) -> bool {$/;"	P	implementation:VocabularyVec
+is_first_order_walk	walks_parameters.rs	/^    pub fn is_first_order_walk(&self) -> bool {$/;"	P	implementation:SingleWalkParameters
+is_first_order_walk	walks_parameters.rs	/^    pub fn is_first_order_walk(&self) -> bool {$/;"	P	implementation:WalkWeights
+is_first_order_walk	walks_parameters.rs	/^    pub fn is_first_order_walk(&self) -> bool {$/;"	P	implementation:WalksParameters
+is_multigraph	getters.rs	/^    pub fn is_multigraph(&self) -> bool {$/;"	P	implementation:Graph
+is_node_trap	graph.rs	/^    pub fn is_node_trap(&self, node: NodeT) -> bool {$/;"	P	implementation:Graph
+is_singleton	getters.rs	/^    pub fn is_singleton(&self, node_id: NodeT) -> bool {$/;"	P	implementation:Graph
+is_singleton_string	getters.rs	/^    pub fn is_singleton_string(&self, node_name: &str) -> Result<bool, String> {$/;"	P	implementation:Graph
+is_walk_without_destinations	walks_parameters.rs	/^    pub fn is_walk_without_destinations(&self) -> bool {$/;"	P	implementation:WalkWeights
+iter_edges_from_random_state	trees.rs	/^    fn iter_edges_from_random_state($/;"	P	implementation:Graph
+iter_on_edges_with_preference	trees.rs	/^    fn iter_on_edges_with_preference<'a>($/;"	P	implementation:Graph
+iters	lib.rs	/^mod iters;$/;"	n
+jaccard_index	metrics.rs	/^    pub fn jaccard_index(&self, one: NodeT, two: NodeT) -> Result<f64, String> {$/;"	P	implementation:Graph
+keys	vocabulary.rs	/^    pub fn keys(&self) -> Vec<String> {$/;"	P	implementation:Vocabulary
+keys	vocabulary_vec.rs	/^    pub fn keys(&self) -> Vec<String> {$/;"	P	implementation:VocabularyVec
+kfold	holdouts.rs	/^    pub fn kfold($/;"	P	implementation:Graph
+len	vocabulary.rs	/^    pub fn len(&self) -> usize {$/;"	P	implementation:Vocabulary
+len	vocabulary_vec.rs	/^    pub fn len(&self) -> usize {$/;"	P	implementation:VocabularyVec
+link_prediction	preprocessing.rs	/^    pub fn link_prediction($/;"	P	implementation:Graph
+load_ppi	test_utilities.rs	/^pub fn load_ppi($/;"	f
+map	parallel_hashmap.rs	/^    map: HashMap<(NodeT, NodeT), AtomicU64>$/;"	m	struct:ConcurrentHashmap
+map	vocabulary.rs	/^    pub map: HashMap<String, IndexT>,$/;"	m	struct:Vocabulary
+max	utils.rs	/^macro_rules! max {$/;"	M
+merged_components_number	metrics.rs	/^    fn merged_components_number(&self, nodes_components: &[NodeT], other: &Graph) -> NodeT {$/;"	P	implementation:Graph
+metrics	lib.rs	/^mod metrics;$/;"	n
+min	utils.rs	/^macro_rules! min {$/;"	M
+modifiers	lib.rs	/^mod modifiers;$/;"	n
+new	csv_file_reader.rs	/^    pub fn new(path: String) -> Result<CSVFileReader, String> {$/;"	P	implementation:CSVFileReader
+new	csv_file_writer.rs	/^    pub fn new(path: String) -> CSVFileWriter {$/;"	P	implementation:CSVFileWriter
+new	edge_file_reader.rs	/^    pub fn new(path: String) -> Result<EdgeFileReader, String> {$/;"	P	implementation:EdgeFileReader
+new	edge_file_writer.rs	/^    pub fn new(path: String) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+new	node_file_reader.rs	/^    pub fn new(path: String) -> Result<NodeFileReader, String> {$/;"	P	implementation:NodeFileReader
+new	node_file_writer.rs	/^    pub fn new(path: String) -> NodeFileWriter {$/;"	P	implementation:NodeFileWriter
+new	vocabulary.rs	/^    pub fn new(numeric_ids: bool) -> Vocabulary<IndexT> {$/;"	P	implementation:Vocabulary
+new	vocabulary_vec.rs	/^    pub fn new(numeric_ids: bool) -> VocabularyVec<IndexT, CountT> {$/;"	P	implementation:VocabularyVec
+new	walks_parameters.rs	/^    pub fn new(length: NodeT) -> Result<SingleWalkParameters, String> {$/;"	P	implementation:SingleWalkParameters
+new	walks_parameters.rs	/^    pub fn new(length: NodeT) -> Result<WalksParameters, String> {$/;"	P	implementation:WalksParameters
+node2vec	preprocessing.rs	/^    pub fn node2vec($/;"	P	implementation:Graph
+node_file_reader	lib.rs	/^mod node_file_reader;$/;"	n
+node_file_writer	lib.rs	/^mod node_file_writer;$/;"	n
+not_one	utils.rs	/^pub(crate) fn not_one(weight:WeightT)->bool {$/;"	f
+numeric_ids	vocabulary.rs	/^    pub numeric_ids: bool,$/;"	m	struct:Vocabulary
+operators	lib.rs	/^mod operators;$/;"	n
+optionify	constructors.rs	/^macro_rules! optionify {$/;"	M
+overlap_textual_report	metrics.rs	/^    pub fn overlap_textual_report(&self, other: &Graph, verbose: bool) -> Result<String, String>/;"	P	implementation:Graph
+overlaps	graph.rs	/^    pub fn overlaps(&self, other: &Graph) -> Result<bool, String> {$/;"	P	implementation:Graph
+parse_edge_line	edge_file_reader.rs	/^    fn parse_edge_line(&self, vals: Vec<String>) -> Result<StringQuadruple, String> {$/;"	P	implementation:EdgeFileReader
+parse_edge_type_ids	constructors.rs	/^pub(crate) fn parse_edge_type_ids<'a>($/;"	f
+parse_edge_type_ids_vocabulary	constructors.rs	/^pub(crate) fn parse_edge_type_ids_vocabulary<'a, 'b>($/;"	f
+parse_edges_node_ids	constructors.rs	/^pub(crate) fn parse_edges_node_ids<'a, 'b>($/;"	f
+parse_integer_edges	constructors.rs	/^pub(crate) fn parse_integer_edges($/;"	f
+parse_integer_unsorted_edges	constructors.rs	/^pub(crate) fn parse_integer_unsorted_edges<'a>($/;"	f
+parse_node_ids	constructors.rs	/^pub(crate) fn parse_node_ids<'a, 'b>($/;"	f
+parse_node_type_ids	constructors.rs	/^pub(crate) fn parse_node_type_ids<'a, 'b>($/;"	f
+parse_nodes	constructors.rs	/^fn parse_nodes($/;"	f
+parse_sorted_edges	constructors.rs	/^pub(crate) fn parse_sorted_edges<'a>($/;"	f
+parse_string_edges	constructors.rs	/^pub(crate) fn parse_string_edges($/;"	f
+parse_string_unsorted_edges	constructors.rs	/^pub(crate) fn parse_string_unsorted_edges<'a>($/;"	f
+parse_unsorted_quadruples	constructors.rs	/^pub(crate) fn parse_unsorted_quadruples($/;"	f
+parse_weight	utils.rs	/^pub fn parse_weight(weight: Option<String>) -> Result<Option<WeightT>, String> {$/;"	f
+parse_weights	constructors.rs	/^pub(crate) fn parse_weights<'a>($/;"	f
+preprocessing	lib.rs	/^mod preprocessing;$/;"	n
+random_holdout	holdouts.rs	/^    pub fn random_holdout($/;"	P	implementation:Graph
+random_path	test_utilities.rs	/^pub fn random_path() -> String {$/;"	f
+random_string	test_utilities.rs	/^pub fn random_string(len: usize) -> String {$/;"	f
+random_subgraph	holdouts.rs	/^    pub fn random_subgraph($/;"	P	implementation:Graph
+random_walks_iter	walks.rs	/^    pub fn random_walks_iter<'a>($/;"	P	implementation:Graph
+read_lines	csv_file_reader.rs	/^    pub(crate) fn read_lines($/;"	P	implementation:CSVFileReader
+read_lines	edge_file_reader.rs	/^    pub fn read_lines($/;"	P	implementation:EdgeFileReader
+read_lines	node_file_reader.rs	/^    pub fn read_lines($/;"	P	implementation:NodeFileReader
+remap	lib.rs	/^mod remap;$/;"	n
+remap	remap.rs	/^    pub fn remap(&self, other: &Graph, verbose: bool) -> Result<Graph, String> {$/;"	P	implementation:Graph
+remove	lib.rs	/^mod remove;$/;"	n
+remove	remove.rs	/^    pub fn remove($/;"	P	implementation:Graph
+remove_components	remove.rs	/^    pub fn remove_components($/;"	P	implementation:Graph
+report	metrics.rs	/^    pub fn report(&self) -> DefaultHashMap<&str, String> {$/;"	P	implementation:Graph
+resource_allocation_index	metrics.rs	/^    pub fn resource_allocation_index(&self, one: NodeT, two: NodeT) -> Result<f64, String> {$/;"	P	implementation:Graph
+reverse_map	vocabulary.rs	/^    pub reverse_map: Vec<String>,$/;"	m	struct:Vocabulary
+rust_update_explore_weight_transition	walks.rs	/^fn rust_update_explore_weight_transition($/;"	f
+rust_update_return_explore_weight_transition	walks.rs	/^fn rust_update_return_explore_weight_transition($/;"	f
+s16	core.c	/^typedef short                 s16;$/;"	t	typeref:typename:short	file:
+s32	core.c	/^typedef int                   s32;$/;"	t	typeref:typename:int	file:
+s64	core.c	/^typedef long long             s64;$/;"	t	typeref:typename:long long	file:
+s8	core.c	/^typedef signed char           s8;$/;"	t	typeref:typename:signed char	file:
+sample_negatives	holdouts.rs	/^    pub fn sample_negatives($/;"	P	implementation:Graph
+second_order_walker	test_utilities.rs	/^pub fn second_order_walker(graph: &Graph) -> Result<WalksParameters, String> {$/;"	f
+set_all_edge_types	modifiers.rs	/^    pub fn set_all_edge_types(mut self, edge_type: String) -> Graph {$/;"	P	implementation:Graph
+set_all_node_types	modifiers.rs	/^    pub fn set_all_node_types(mut self, node_type: String) -> Graph {$/;"	P	implementation:Graph
+set_change_edge_type_weight	walks_parameters.rs	/^    pub fn set_change_edge_type_weight($/;"	P	implementation:WalksParameters
+set_change_node_type_weight	walks_parameters.rs	/^    pub fn set_change_node_type_weight($/;"	P	implementation:WalksParameters
+set_default_edge_type	edge_file_reader.rs	/^    pub fn set_default_edge_type(mut self, default_edge_type: Option<String>) -> EdgeFileReader /;"	P	implementation:EdgeFileReader
+set_default_node_type	node_file_reader.rs	/^    pub fn set_default_node_type(mut self, default_node_type: Option<String>) -> NodeFileReader /;"	P	implementation:NodeFileReader
+set_default_weight	edge_file_reader.rs	/^    pub fn set_default_weight(mut self, default_weight: Option<WeightT>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_dense_node_mapping	walks_parameters.rs	/^    pub fn set_dense_node_mapping($/;"	P	implementation:WalksParameters
+set_destinations_column	edge_file_reader.rs	/^    pub fn set_destinations_column($/;"	P	implementation:EdgeFileReader
+set_destinations_column	edge_file_writer.rs	/^    pub fn set_destinations_column($/;"	P	implementation:EdgeFileWriter
+set_destinations_column_number	edge_file_reader.rs	/^    pub fn set_destinations_column_number($/;"	P	implementation:EdgeFileReader
+set_destinations_column_number	edge_file_writer.rs	/^    pub fn set_destinations_column_number($/;"	P	implementation:EdgeFileWriter
+set_directed	edge_file_writer.rs	/^    pub fn set_directed(mut self, directed: Option<bool>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_edge_types_column	edge_file_reader.rs	/^    pub fn set_edge_types_column($/;"	P	implementation:EdgeFileReader
+set_edge_types_column	edge_file_writer.rs	/^    pub fn set_edge_types_column(mut self, edge_type_column: Option<String>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_edge_types_column_number	edge_file_reader.rs	/^    pub fn set_edge_types_column_number($/;"	P	implementation:EdgeFileReader
+set_edge_types_column_number	edge_file_writer.rs	/^    pub fn set_edge_types_column_number($/;"	P	implementation:EdgeFileWriter
+set_explore_weight	walks_parameters.rs	/^    pub fn set_explore_weight($/;"	P	implementation:WalksParameters
+set_header	edge_file_reader.rs	/^    pub fn set_header(mut self, header: Option<bool>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_header	edge_file_writer.rs	/^    pub fn set_header(mut self, header: Option<bool>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_header	node_file_reader.rs	/^    pub fn set_header(mut self, header: Option<bool>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_header	node_file_writer.rs	/^    pub fn set_header(mut self, header: Option<bool>) -> NodeFileWriter {$/;"	P	implementation:NodeFileWriter
+set_ignore_duplicates	edge_file_reader.rs	/^    pub fn set_ignore_duplicates(mut self, ignore_duplicates: Option<bool>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_ignore_duplicates	node_file_reader.rs	/^    pub fn set_ignore_duplicates(mut self, ignore_duplicates: Option<bool>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_iterations	walks_parameters.rs	/^    pub fn set_iterations(mut self, iterations: Option<NodeT>) -> Result<WalksParameters, String/;"	P	implementation:WalksParameters
+set_max_rows_number	edge_file_reader.rs	/^    pub fn set_max_rows_number(mut self, max_rows_number: Option<u64>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_max_rows_number	node_file_reader.rs	/^    pub fn set_max_rows_number(mut self, max_rows_number: Option<u64>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_name	setters.rs	/^    pub fn set_name(&mut self, name: String) {$/;"	P	implementation:Graph
+set_node_types_column	node_file_reader.rs	/^    pub fn set_node_types_column($/;"	P	implementation:NodeFileReader
+set_node_types_column	node_file_writer.rs	/^    pub fn set_node_types_column($/;"	P	implementation:NodeFileWriter
+set_node_types_column_number	node_file_reader.rs	/^    pub fn set_node_types_column_number($/;"	P	implementation:NodeFileReader
+set_node_types_column_number	node_file_writer.rs	/^    pub fn set_node_types_column_number($/;"	P	implementation:NodeFileWriter
+set_nodes_column	node_file_reader.rs	/^    pub fn set_nodes_column($/;"	P	implementation:NodeFileReader
+set_nodes_column	node_file_writer.rs	/^    pub fn set_nodes_column($/;"	P	implementation:NodeFileWriter
+set_nodes_column_number	node_file_reader.rs	/^    pub fn set_nodes_column_number($/;"	P	implementation:NodeFileReader
+set_nodes_column_number	node_file_writer.rs	/^    pub fn set_nodes_column_number(mut self, nodes_column_number: Option<usize>) -> NodeFileWrit/;"	P	implementation:NodeFileWriter
+set_numeric_edge_type_ids	edge_file_reader.rs	/^    pub fn set_numeric_edge_type_ids($/;"	P	implementation:EdgeFileReader
+set_numeric_node_ids	edge_file_reader.rs	/^    pub fn set_numeric_node_ids(mut self, numeric_node_ids: Option<bool>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_numeric_node_ids	edge_file_writer.rs	/^    pub fn set_numeric_node_ids(mut self, numeric_node_ids: Option<bool>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_numeric_node_ids	node_file_reader.rs	/^    pub fn set_numeric_node_ids(mut self, numeric_node_ids: Option<bool>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_numeric_node_type_ids	node_file_reader.rs	/^    pub fn set_numeric_node_type_ids($/;"	P	implementation:NodeFileReader
+set_random_state	walks_parameters.rs	/^    pub fn set_random_state(mut self, random_state: Option<usize>) -> WalksParameters {$/;"	P	implementation:WalksParameters
+set_return_weight	walks_parameters.rs	/^    pub fn set_return_weight($/;"	P	implementation:WalksParameters
+set_rows_to_skip	edge_file_reader.rs	/^    pub fn set_rows_to_skip(mut self, rows_to_skip: Option<usize>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_rows_to_skip	node_file_reader.rs	/^    pub fn set_rows_to_skip(mut self, rows_to_skip: Option<usize>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_separator	edge_file_reader.rs	/^    pub fn set_separator(mut self, separator: Option<String>) -> Result<EdgeFileReader, String> /;"	P	implementation:EdgeFileReader
+set_separator	edge_file_writer.rs	/^    pub fn set_separator(mut self, separator: Option<String>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_separator	node_file_reader.rs	/^    pub fn set_separator(mut self, separator: Option<String>) -> Result<NodeFileReader, String> /;"	P	implementation:NodeFileReader
+set_separator	node_file_writer.rs	/^    pub fn set_separator(mut self, separator: Option<String>) -> NodeFileWriter {$/;"	P	implementation:NodeFileWriter
+set_skip_self_loops	edge_file_reader.rs	/^    pub fn set_skip_self_loops(mut self, skip_self_loops: Option<bool>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_sources_column	edge_file_reader.rs	/^    pub fn set_sources_column($/;"	P	implementation:EdgeFileReader
+set_sources_column	edge_file_writer.rs	/^    pub fn set_sources_column(mut self, sources_column: Option<String>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_sources_column_number	edge_file_reader.rs	/^    pub fn set_sources_column_number($/;"	P	implementation:EdgeFileReader
+set_sources_column_number	edge_file_writer.rs	/^    pub fn set_sources_column_number($/;"	P	implementation:EdgeFileWriter
+set_verbose	edge_file_reader.rs	/^    pub fn set_verbose(mut self, verbose: Option<bool>) -> EdgeFileReader {$/;"	P	implementation:EdgeFileReader
+set_verbose	edge_file_writer.rs	/^    pub fn set_verbose(mut self, verbose: Option<bool>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_verbose	node_file_reader.rs	/^    pub fn set_verbose(mut self, verbose: Option<bool>) -> NodeFileReader {$/;"	P	implementation:NodeFileReader
+set_verbose	node_file_writer.rs	/^    pub fn set_verbose(mut self, verbose: Option<bool>) -> NodeFileWriter {$/;"	P	implementation:NodeFileWriter
+set_weights_column	edge_file_reader.rs	/^    pub fn set_weights_column($/;"	P	implementation:EdgeFileReader
+set_weights_column	edge_file_writer.rs	/^    pub fn set_weights_column(mut self, weights_column: Option<String>) -> EdgeFileWriter {$/;"	P	implementation:EdgeFileWriter
+set_weights_column_number	edge_file_reader.rs	/^    pub fn set_weights_column_number($/;"	P	implementation:EdgeFileReader
+set_weights_column_number	edge_file_writer.rs	/^    pub fn set_weights_column_number($/;"	P	implementation:EdgeFileWriter
+setters	lib.rs	/^mod setters;$/;"	n
+shared_components_number	metrics.rs	/^    fn shared_components_number(&self, nodes_components: &[NodeT], other: &Graph) -> NodeT {$/;"	P	implementation:Graph
+single_walk	walks.rs	/^    pub fn single_walk($/;"	P	implementation:Graph
+spanning_tree	trees.rs	/^    pub fn spanning_tree($/;"	P	implementation:Graph
+strongly_connected_components	tarjan.rs	/^    pub fn strongly_connected_components(&self) -> Vec<HashSet<NodeT>> {$/;"	P	implementation:Graph
+sub	operators.rs	/^    fn sub(self, other: &'b Graph) -> Result<Graph, String> {$/;"	P	implementation:Graph
+tarjan	lib.rs	/^mod tarjan;$/;"	n
+test_update_explore_weight_transition	walks.rs	/^    fn test_update_explore_weight_transition() {$/;"	f	module:tests
+test_update_return_explore_weight_transition	walks.rs	/^    fn test_update_return_explore_weight_transition() {$/;"	f	module:tests
+test_update_return_weight_transition	walks.rs	/^    fn test_update_return_weight_transition() {$/;"	f	module:tests
+test_utilities	lib.rs	/^pub mod test_utilities;$/;"	n
+tests	walks.rs	/^mod tests {$/;"	n
+textual_report	metrics.rs	/^    pub fn textual_report(&self) -> Result<String, String> {$/;"	P	implementation:Graph
+to_usize	types.rs	/^    fn to_usize(v: Self) -> usize;$/;"	P	interface:ToFromUsize
+translate	vocabulary.rs	/^    pub fn translate(&self, id: IndexT) -> &str {$/;"	P	implementation:Vocabulary
+translate	vocabulary_vec.rs	/^    pub fn translate(&self, id: IndexT) -> &str {$/;"	P	implementation:VocabularyVec
+translate_edge_types	graph.rs	/^    pub fn translate_edge_types(&self, edge_types: Vec<String>) -> Result<Vec<EdgeTypeT>, String/;"	P	implementation:Graph
+translate_node_types	graph.rs	/^    pub fn translate_node_types(&self, node_types: Vec<String>) -> Result<Vec<NodeTypeT>, String/;"	P	implementation:Graph
+traps_rate	metrics.rs	/^    pub fn traps_rate(&self) -> f64 {$/;"	P	implementation:Graph
+trees	lib.rs	/^mod trees;$/;"	n
+types	lib.rs	/^pub mod types;$/;"	n
+u16	core.c	/^typedef unsigned short        u16;$/;"	t	typeref:typename:unsigned short	file:
+u32	core.c	/^typedef unsigned int          u32;$/;"	t	typeref:typename:unsigned int	file:
+u64	core.c	/^typedef unsigned long long    u64;$/;"	t	typeref:typename:unsigned long long	file:
+u8	core.c	/^typedef char                  u8;$/;"	t	typeref:typename:char	file:
+uniform_walk	walks.rs	/^    fn uniform_walk($/;"	P	implementation:Graph
+update_explore_weight_transition	walks.rs	/^pub fn update_explore_weight_transition($/;"	f
+update_node_transition	walks.rs	/^    fn update_node_transition($/;"	P	implementation:Graph
+update_return_explore_weight_transition	walks.rs	/^pub fn update_return_explore_weight_transition($/;"	f
+update_return_weight_transition	walks.rs	/^fn update_return_weight_transition($/;"	f
+utils	lib.rs	/^mod utils;$/;"	n
+validate	walks_parameters.rs	/^    pub fn validate(&self, graph: &Graph) -> Result<(), String> {$/;"	P	implementation:WalksParameters
+validate_operator_terms	operators.rs	/^    pub fn validate_operator_terms(&self, other: &'b Graph) -> Result<(), String> {$/;"	P	implementation:Graph
+validate_vocabularies	test_utilities.rs	/^fn validate_vocabularies(graph: &Graph) {$/;"	f
+validate_weight	utils.rs	/^pub fn validate_weight(weight: WeightT) -> Result<WeightT, String> {$/;"	f
+validate_weight	walks_parameters.rs	/^    fn validate_weight(weight_name: &str, weight: WeightT) -> Result<WeightT, String> {$/;"	P	implementation:WalkWeights
+vocabulary	lib.rs	/^mod vocabulary;$/;"	n
+vocabulary	vocabulary_vec.rs	/^    pub vocabulary: Vocabulary<IndexT>,$/;"	m	struct:VocabularyVec
+vocabulary_vec	lib.rs	/^mod vocabulary_vec;$/;"	n
+walk_iter	walks.rs	/^    pub fn walk_iter<'a>($/;"	P	implementation:Graph
+walks	lib.rs	/^mod walks;$/;"	n
+walks_parameters	lib.rs	/^mod walks_parameters;$/;"	n
+word2vec	preprocessing.rs	/^pub fn word2vec<'a>($/;"	f
+write_lines	csv_file_writer.rs	/^    pub(crate) fn write_lines($/;"	P	implementation:CSVFileWriter

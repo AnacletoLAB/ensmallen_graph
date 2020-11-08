@@ -1,17 +1,4 @@
 use super::*;
-use arbitrary::Arbitrary;
-
-#[derive(Arbitrary, Debug)]
-pub struct FromVecHarnessParams {
-    edges: Vec<Result<StringQuadruple, String>>,
-    nodes: Option<Vec<Result<(String, Option<String>), String>>>,
-    directed: bool,
-    ignore_duplicated_nodes: bool,
-    ignore_duplicated_edges: bool,
-    numeric_edge_types_ids: bool,
-    numeric_node_ids: bool,
-    numeric_node_types_ids: bool
-}
 
 pub fn from_vec_harness(data: FromVecHarnessParams) -> Result<(), String> {
     let mut g = graph::Graph::from_string_unsorted(

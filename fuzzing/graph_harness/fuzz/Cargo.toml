@@ -11,6 +11,7 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = { version = "0.3", features = ["arbitrary-derive"] }
+arbitrary_rust = { git = "https://github.com/zommiommy/arbitrary_rust", branch = "main" }
 
 [dependencies.graph_harness]
 path = ".."

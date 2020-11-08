@@ -4,7 +4,6 @@ MAX_RAM := 8192 # Mb
 MAX_LEN := 81920 # bytes
 CORPUS_FOLDER := corpus
 
-
 libfuzz_from_csv:
 	(\
 	cd graph_harness;\
@@ -16,7 +15,7 @@ libfuzz_from_vec:
 	(\
 	cd graph_harness;\
 	cargo update;\
-	cargo fuzz run from_vec ../$(CORPUS_FOLDER)/from_vec/ -- -timeout=$(TIMEOUT) -rss_limit_mb=$(MAX_RAM) -max_len=$(MAX_LEN) -random_state=$(random_state);\
+	cargo fuzz run from_vec ../$(CORPUS_FOLDER)/from_vec/-- -timeout=$(TIMEOUT) -rss_limit_mb=$(MAX_RAM) -max_len=$(MAX_LEN) -random_state=$(random_state);\
 	)
 
 hfuzz_from_csv:
