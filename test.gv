@@ -1,0 +1,12 @@
+graph G{
+    t  [width=0.5 shape=circle]
+    v  [width=0.5 shape=circle]
+    x1 [width=0.5 shape=circle]
+    x2 [width=0.5 shape=circle]
+    x3 [width=0.5 shape=circle]
+    t -- v [ label="p" ]
+    v -- x1 [ label="1" ]
+    v -- x2 [ label="q" ]
+    v -- x3 [ label="q" ]
+    t -- x1
+}

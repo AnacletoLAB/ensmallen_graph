@@ -1,5 +1,6 @@
 
 use std::fs;
+use std::fs::File;
 use graph_harness::*;
 use arbitrary_rust::Arbitrary;
 use std::io::prelude::*;
@@ -9,16 +10,29 @@ const FROM_VEC_FOLDER: &str = "../corpus/from_vec";
 
 macro_rules! serialize {
     ($filename:expr, csv, $obj:expr) => {{
-        let mut buffer = std::fs::File::create(
-            format!("{}/{}", FROM_CSV_FOLDER, $filename)
-        ).unwrap();
+        let path = format!("{}/{}", FROM_CSV_FOLDER, $filename);
+        let mut buffer = std::fs::File::create(&path).unwrap();
         buffer.write_all(&$obj.to_bytes()).unwrap();
+
+        let mut f = File::open(&path).expect(&format!("File found - {}", &path));
+        let metadata = fs::metadata(&path).expect("unable to read metadata");
+        let mut buffer = vec![0; metadata.len() as usize];
+        f.read(&mut buffer).expect("buffer overflow");
+
+        assert_eq!($obj, FromCsvHarnessParams::from_bytes(buffer), "{} is not reproducible!!!!", path);
+
     }};
     ($filename:expr, vec, $obj:expr) => {{
-        let mut buffer = std::fs::File::create(
-            format!("{}/{}", FROM_VEC_FOLDER, $filename)
-        ).unwrap();
+        let path = format!("{}/{}", FROM_VEC_FOLDER, $filename);
+        let mut buffer = std::fs::File::create(&path).unwrap();
         buffer.write_all(&$obj.to_bytes()).unwrap();
+
+        let mut f = File::open(&path).expect(&format!("File found - {}", &path));
+        let metadata = fs::metadata(&path).expect("unable to read metadata");
+        let mut buffer = vec![0; metadata.len() as usize];
+        f.read(&mut buffer).expect("buffer overflow");
+
+        assert_eq!($obj, FromVecHarnessParams::from_bytes(buffer), "{} is not reproducible!!!!", path);
     }};
 }
 

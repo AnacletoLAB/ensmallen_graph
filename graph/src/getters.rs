@@ -518,4 +518,13 @@ impl Graph {
     pub fn get_unique_sources_number(&self) -> NodeT {
         self.unique_sources.len() as NodeT
     }
+
+    pub fn to_dot(&self) -> String {
+        format!(
+            "graph G {{\nlayout=sfdp\n\t{}\n}}",
+            self.get_edges_iter(self.directed).map(|(_, src, dst)| {
+                format!("{} -- {}", src, dst)
+            }).collect::<Vec<String>>().join("\n\t")
+        )  
+    }
 }

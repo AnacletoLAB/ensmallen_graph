@@ -2,7 +2,7 @@ use super::*;
 use arbitrary_rust::Arbitrary;
 
 
-#[derive(Arbitrary, Debug)]
+#[derive(Arbitrary, Debug, PartialEq)]
 pub struct FromVecHarnessParams {
     pub edges: Vec::<Result<StringQuadruple, String>>,
     pub nodes: Option::<Vec<Result<(String, Option<String>), String>>>,
@@ -14,14 +14,14 @@ pub struct FromVecHarnessParams {
     pub numeric_node_types_ids: bool
 }
 
-#[derive(Arbitrary, Debug)]
+#[derive(Arbitrary, Debug, PartialEq)]
 pub struct FromCsvHarnessParams {
     pub edge_reader: EdgeFileReaderParams,
     pub nodes_reader: Option::<NodeFileReaderParams>,
     pub directed: bool,
 }
 
-#[derive(Arbitrary, Debug)]
+#[derive(Arbitrary, Debug, PartialEq)]
 pub struct CSVFileReaderParams {
     pub verbose: Option::<bool>,
     pub separator: Option::<String>,
@@ -30,7 +30,7 @@ pub struct CSVFileReaderParams {
     pub ignore_duplicates: Option::<bool>,
 }
 
-#[derive(Arbitrary, Debug)]
+#[derive(Arbitrary, Debug, PartialEq)]
 pub struct NodeFileReaderParams {
     pub file: String,
     pub reader: CSVFileReaderParams,
@@ -42,7 +42,7 @@ pub struct NodeFileReaderParams {
 }
 
 
-#[derive(Arbitrary, Debug)]
+#[derive(Arbitrary, Debug, PartialEq)]
 pub struct EdgeFileReaderParams {
     pub file: String,
     pub reader: CSVFileReaderParams,

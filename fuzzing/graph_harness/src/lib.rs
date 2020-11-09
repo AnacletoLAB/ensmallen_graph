@@ -2,14 +2,10 @@ extern crate graph;
 pub(crate) use graph::*;
 
 mod from_csv;
-pub use from_csv::{
-    from_csv_harness,
-};
+pub use from_csv::*;
 
 mod from_vec;
-pub use from_vec::{
-    from_vec_harness,
-};
+pub use from_vec::*;
 
 mod shared;
 pub use shared::*;

@@ -4,19 +4,17 @@ use std::io::prelude::*;
 use std::fs::remove_file;
 
 pub fn from_csv_harness(data: FromCsvHarnessParams) -> Result<(), String> {
-    // generate random paths
-    let edges_path = graph::test_utilities::random_path();
-    let nodes_path = graph::test_utilities::random_path();
     // run the harness
-    let result = internal_harness(&edges_path, &nodes_path, data);
-    // cleanup
-    let _ = remove_file(&edges_path);
-    let _ = remove_file(&nodes_path);
-    result
+    let mut graph = from_csv_load_graph(data)?;
+    graph::test_utilities::default_test_suite(&mut graph, false)
 }
 
-fn internal_harness(edges_path: &str, nodes_path: &str, data: FromCsvHarnessParams) -> Result<(), String> {
-    // create the edge file
+pub fn from_csv_load_graph(data: FromCsvHarnessParams) -> Result<Graph, String> {
+
+    // generate random paths
+    let edges_path = &graph::test_utilities::random_path();
+    let nodes_path = &graph::test_utilities::random_path();
+
     let mut edges_file = File::create(edges_path).unwrap();
     edges_file.write_all(&data.edge_reader.file.as_bytes()).unwrap();
     
@@ -64,8 +62,11 @@ fn internal_harness(edges_path: &str, nodes_path: &str, data: FromCsvHarnessPara
         }
     };
 
-    let mut g = Graph::from_unsorted_csv(edges_reader, nodes_reader, data.directed, false, "Graph".to_owned())?;
-    let _ = graph::test_utilities::default_test_suite(&mut g, false);
+    let g = Graph::from_unsorted_csv(edges_reader, nodes_reader, data.directed, false, "Graph".to_owned())?;
 
-    Ok(())
+    // cleanup
+    let _ = remove_file(&edges_path);
+    let _ = remove_file(&nodes_path);
+
+    Ok(g)
 }

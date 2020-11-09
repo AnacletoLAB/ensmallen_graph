@@ -11,6 +11,10 @@ name = "load"
 path = "src/load.rs"
 
 [[bin]]
+name = "plot"
+path = "src/plot.rs"
+
+[[bin]]
 name = "create_corpus"
 path = "src/create_corpus.rs"
 
